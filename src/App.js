@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import MyTable from './components/MyTable'
+import Experiment from './components/Experiment'
 
 function App() {
   return (
@@ -18,7 +20,21 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="main-content"></div>
+        <h1>Hello world!</h1>
+
+        
+        <MyTable/>
+
+        <Experiment/>
+     
+
+      <footer>
+        <span>&copy;Lecicon</span>
+      </footer>
+
     </div>
+
   );
 }
 
